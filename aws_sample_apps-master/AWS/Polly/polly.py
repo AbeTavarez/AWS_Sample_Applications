@@ -11,7 +11,6 @@ print(result)
 
 # Save Audio
 audio = result['AudioStream'].read()
-print('==================================================')
 print(type(audio))
 
 with open('./MP3/myAudioFile.mp3', 'wb') as f:
